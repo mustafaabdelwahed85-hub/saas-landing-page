@@ -17,7 +17,7 @@ A fully responsive SaaS hero landing page built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-Coming soon
+https://mustafaabdelwahed85-hub.github.io/saas-landing-page/
 
 ## Author
 Mustafa Abdelwahed
