@@ -1,7 +1,7 @@
 :root {
   --primary: #8b5cf6;
   --secondary: #22d3ee;
-  --bg: #020617;
+  --bg: #151e46;
   --card: #0f172a;
   --text: #e2e8f0;
   --muted: #94a3b8;
@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(2, 6, 23, 0.4);
+  background: rgba(8, 16, 52, 0.4);
   transition: 0.3s ease;
   z-index: 1000;
 }
@@ -46,11 +46,21 @@ body {
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: bold;
-  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  height: 45px;
+  filter: drop-shadow(0 0 10px rgba(34, 211, 238, 0.6));
+ 
 }
 
+.logo span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #22d3ee;
+}
 .nav-links {
   list-style: none;
   display: flex;
